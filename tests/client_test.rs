@@ -93,7 +93,6 @@ fn test_client_echo_message() {
 }
 
 #[test]
-#[ignore = "please remove ignore and fix this test"]
 fn test_multiple_echo_messages() {
     // Set up the server in a separate thread
     let server = create_server();
@@ -152,7 +151,6 @@ fn test_multiple_echo_messages() {
 }
 
 #[test]
-#[ignore = "please remove ignore and fix this test"]
 fn test_multiple_clients() {
     // Set up the server in a separate thread
     let server = create_server();
@@ -225,7 +223,6 @@ fn test_multiple_clients() {
 }
 
 #[test]
-#[ignore = "please remove ignore and fix this test"]
 fn test_client_add_request() {
     // Set up the server in a separate thread
     let server = create_server();
